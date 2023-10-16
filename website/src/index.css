@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+:root {
+  --main-color: rgb(255 139 106);
+  --name: "Statslator";
+}
+
+h1 {
+  color: var(--main-color);
+  font-weight: 600;
+  font-size: 60px;
+  margin: 0px;
+}

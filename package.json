@@ -1,0 +1,38 @@
+{
+  "name": "statslator",
+  "version": "1.0.1",
+  "description": "Conversion between statistical reporting styles",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm run build && npm publish",
+    "test": "jest"
+  },
+  "author": "Damien Masson (http://damienmasson.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "jstat": "^1.9.6"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "keywords": [
+    "statistics",
+    "stats",
+    "reporting",
+    "conversion",
+    "estimation",
+    "nhst",
+    "p-value",
+    "effect size",
+    "confidence interval"
+  ]
+}
