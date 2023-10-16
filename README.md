@@ -3,7 +3,7 @@ A library to translate between statistical values such as converting p-values an
 
 Statslator.js works by iteratively calculating as many possible statistical values given limited available information about a statistical test. Statslator.js can also detect inconsistencies whenever a value can be calculated in multiple ways but these different calculations yield different results.
 
-[Online Playground](https://m-damien.github.io/Statslatorjs) / [Examples](#examples) / [API](#api) / [Publication](#publication)
+[Online Playground](https://m-damien.github.io/Statslator.js) / [Examples](#examples) / [API](#api) / [Publication](#publication)
 
 
 ## Installation
